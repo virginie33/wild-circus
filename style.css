@@ -1,0 +1,153 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+@font-face{
+    font-family:'Circus';
+    src:url('../fonts/Carnevalee-Freakshow.ttf') format('truetype');
+   
+   }
+
+   header{
+          
+          padding:5px;
+          text-align: center;
+          background-size: cover;
+          background: url("http://static.directmatin.fr/sites/default/files/styles/image_880_495/public/000_163649666_0.jpg?itok=Hr39U9JY  ");
+          background-size: 1100px;
+          }
+        
+
+        h1{
+            font-family: 'Cinzel', cursive;
+            text-align: center;
+            color: red;
+            font-size: 65px;
+            font-weight: bold;
+            text-decoration: underline;
+            }
+        h2{
+          font-family: 'Cinzel', cursive;
+            text-align: center;
+            font-weight: bold;
+            color:white;
+          }
+        h3{
+          font-family: 'Cinzel', cursive;
+            text-align: center;
+            font-size: 20px;
+            color: #000000;
+           text-decoration: underline;
+            }
+       
+       h4{
+         padding-top:239px;
+        font-family: 'Cinzel', cursive;
+            text-align: center;
+            font-size: 15px;
+            color: red;
+      text-decoration: underline;
+       }
+
+        ul{
+          padding: 10px;
+          background: rgba(0,0,0,0.5);
+          }
+        li{
+          display: inline;
+          padding: 10px ;
+          }
+        ol{
+          font-family: 'Lobster', cursive;
+          text-align: justify;
+          font-size: 30px;
+        }
+        a{
+          font-family: 'Cinzel', cursive;
+            text-align: center;
+            font-size: 15px;
+          color: white;
+          }
+        body{
+         background-color:#FFDD33 ;
+          }
+       
+ a {
+    width: calc(25% - 7px);
+   
+  }
+
+  a:nth-of-type(2n) {
+    margin-left: 19px;
+  }
+
+  a:nth-of-type(4n) {
+    margin-left: 50;
+  
+  }
+}
+
+ p{
+          padding-top:309px;  
+         margin:50px;
+          text-align: center;
+          font-family: 'Cinzel', cursive;
+          font-size: 15;
+          }
+         
+     /* FOOTER */
+
+
+
+
+footer  {
+    
+    text-align: center;
+    width:100%;
+    padding-top:30px;
+    height:50px;
+    background-color:blue;
+    color:black;
+   
+}
+  
+
+
+#container{
+        padding-top:109px;
+       text-align: center;
+       width:100%;
+       padding-top:380px;
+      height:50px;  
+    
+}
+
+
+
+
+
+img{
+      
+       box-shadow: 8px 8px 0px #aaa; 
+       border-radius: 10px;
+       height: 200px;
+       width: 400px;
+       float:left;
+       border:none; 
+       margin-left:50px;
+       -webkit-box-flex: auto;
+       -ms-flex: auto;
+       flex: auto; 
+       
+       margin: .5vw; 
+      .gradient {
+  -moz-border-bottom-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+  -moz-border-top-colors:  #897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+  -moz-border-left-colors: #897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+  -moz-border-right-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+}
+
+  }
+   
+@media screen and (min-width: 50em) {
+
+
+
+
