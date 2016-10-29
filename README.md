@@ -1,2 +1,2 @@
 # wild-circus
-teste d'entrée à la wild code school
+test d'entrée à la wild code school
