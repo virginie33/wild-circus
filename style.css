@@ -1,153 +1,241 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
-@font-face{
-    font-family:'Circus';
-    src:url('../fonts/Carnevalee-Freakshow.ttf') format('truetype');
-   
-   }
+  *{box-sizing: border-box;}
 
-   header{
-          
-          padding:5px;
-          text-align: center;
-          background-size: cover;
-          background: url("http://static.directmatin.fr/sites/default/files/styles/image_880_495/public/000_163649666_0.jpg?itok=Hr39U9JY  ");
-          background-size: 1100px;
-          }
-        
+  /* police caractère circus */
+  @font-face {
+  font-family: 'Circus';
+  src:url('Circus.ttf') format('truetype');
+  }
 
-        h1{
-            font-family: 'Cinzel', cursive;
-            text-align: center;
-            color: red;
-            font-size: 65px;
-            font-weight: bold;
-            text-decoration: underline;
-            }
-        h2{
-          font-family: 'Cinzel', cursive;
-            text-align: center;
-            font-weight: bold;
-            color:white;
-          }
-        h3{
-          font-family: 'Cinzel', cursive;
-            text-align: center;
-            font-size: 20px;
-            color: #000000;
-           text-decoration: underline;
-            }
-       
-       h4{
-         padding-top:239px;
-        font-family: 'Cinzel', cursive;
-            text-align: center;
-            font-size: 15px;
-            color: red;
-      text-decoration: underline;
-       }
+  body {
+  color:black;
+  background-color:white;
+  background-image:url("http://cdn.allwallpaper.in/wallpapers/1920x1080/4646/abstract-circus-elephants-flying-simple-1920x1080-wallpaper.jpg");
+  background-attachment:fixed;
 
-        ul{
-          padding: 10px;
-          background: rgba(0,0,0,0.5);
-          }
-        li{
-          display: inline;
-          padding: 10px ;
-          }
-        ol{
-          font-family: 'Lobster', cursive;
-          text-align: justify;
-          font-size: 30px;
+  }
+
+
+  header  {
+            text-align: center;
+            color: #fff;
+            background-image:url("http://pjv2.wpengine.com/wp-content/uploads/2015/12/bigapplecircus2010mar074.jpg  ");
+            padding-top: 20px;
+            text-align: center;
+            background-size: cover;
         }
-        a{
-          font-family: 'Cinzel', cursive;
-            text-align: center;
-            font-size: 15px;
-          color: white;
-          }
-        body{
-         background-color:#FFDD33 ;
-          }
-       
- a {
-    width: calc(25% - 7px);
-   
+
+  ul.topnav {
+           list-style-type: none;
+           padding: 0;
+           overflow: hidden;
+           background-color: #03224C;
   }
 
-  a:nth-of-type(2n) {
-    margin-left: 19px;
-  }
-
-  a:nth-of-type(4n) {
-    margin-left: 50;
-  
-  }
-}
-
- p{
-          padding-top:309px;  
-         margin:50px;
-          text-align: center;
-          font-family: 'Cinzel', cursive;
-          font-size: 15;
-          }
-         
-     /* FOOTER */
-
-
-
-
-footer  {
-    
-    text-align: center;
-    width:100%;
-    padding-top:30px;
-    height:50px;
-    background-color:blue;
-    color:black;
-   
-}
-  
-
-
-#container{
-        padding-top:109px;
+  ul.topnav li {
+    display: inline-block;
+       color:#000000 ;
        text-align: center;
-       width:100%;
-       padding-top:380px;
-      height:50px;  
-    
-}
+       padding: 14px 16px;
+       text-decoration: none;
+       transition: 0.3s;
+       font-size: 17px;
+  }
 
 
+  ul.topnav li a {
+      text-align: center;
+      margin: 5px;
+      display: inline-block;
+      color: red;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: 0.3s;
+      font-size: 17px;
+  }
 
-
-
-img{
-      
-       box-shadow: 8px 8px 0px #aaa; 
-       border-radius: 10px;
-       height: 200px;
-       width: 400px;
-       float:left;
-       border:none; 
-       margin-left:50px;
-       -webkit-box-flex: auto;
-       -ms-flex: auto;
-       flex: auto; 
-       
-       margin: .5vw; 
-      .gradient {
-  -moz-border-bottom-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
-  -moz-border-top-colors:  #897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
-  -moz-border-left-colors: #897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
-  -moz-border-right-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
-}
+  ul.topnav li a:hover {
+    background-color: #555;
 
   }
-   
-@media screen and (min-width: 50em) {
+
+  ul.topnav li.icon {
+    display: none;
+
+  }
+
+   h1 {
+   text-align: center;
+  
+   color: white;
+   font-size: 50px;
+   font-weight: 700;
+  }
+
+  section  h3 {
+   color: white;
+   font-size: 30px;
+   font-weight: 100;
+   font-family: 'Raleway', sans-serif;
+   font-style: oblique;
+  }
+
+ section h4{
+
+
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+ }
+
+
+  section{
+    text-align: center;
+    padding-top:30px;
+  }
+
+  h1{
+    text-align:center
+  }
+  h3{
+  text-align:center;
+   font-size:14px;
+  }
+  #container {
+      background: #DDD;
+      max-width: 1000px;
+  }
+  .thumbnails img {
+  		height: 80px;
+  		border: 4px solid #555;
+  		padding: 1px;
+  		margin: 0 10px 10px 0;
+  	}
+
+  	.thumbnails img:hover {
+  		border: 4px solid #00ccff;
+  		cursor:pointer;
+  	}
+
+  	.preview img {
+  		border: 4px solid #444;
+  		padding: 1px;
+  		width: 800px;
+  	}
+
+
+  button {
+      font-size: 18px;
+  }
+
+  /*contact*/
+  form {
+      /* Pour le centrer dans la page */
+      margin: 0 auto;
+      width: 400px;
+      /* Pour voir les limites du formulaire */
+      padding: 1em;
+      border: 1px solid #CCC;
+      border-radius: 1em;
+  }
+
+  form div + div {
+      margin-top: 1em;
+  }
+  label {
+      /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+      display: inline-block;
+      width: 90px;
+      text-align: right;
+  }
+  input, textarea {
+
+      font: 1em sans-serif;
+
+      /* Pour donner la même dimension à tous les champs textuels */
+      width: 300px;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+
+      /* Pour harmoniser l'apparence des bordures des champs textuels */
+      border: 1px solid #999;
+  }
+  input:focus, textarea:focus {
+
+      border-color: #000;
+  }
+  textarea {
+
+      vertical-align: top;
+
+
+      height: 5em;
+
+
+      resize: vertical;
+  }
+  .button {
+
+      padding-left: 90px;
+  }
+
+  button {
+
+      margin-left: .5em;
+  }
+
+  p{
+  text-align:center;
+  font-size:20px;
+  }
+  #footer{
+  position:fixed;
+  bottom:0;
+  left:0;
+  height:100px;
+  background: black;
+  }
+#cookie-bar.fixed {
+    position: fixed;
+    bottom: 5;
+    left: 0;
+    z-index: 100;
+
+}
+
+#cookie-bar {
+    line-height: 24px;
+    color: #eeeeee;
+    text-align: center;
+    padding: 3px 0;
+    width: 100%;
+    color: white;
+    background-color: #444;
+    display:none;
+}
+
+.cb-enable {
+    border-radius: 10%;
+    margin-left: 100px;
+    color: white;
+    padding: 5px;   
+    border-radius: 10%;
+    font-family: serif;
+    text-decoration: none;
+    transition: .3s background-color;
 
 
 
+ }
 
+.cb-enable:hover {
+    background-color: darkcyan;
+}
+
+.cb-policy {
+    color: white;
+    text-decoration: underline;
+}
+
+.cb-policy:hover {
+    color: darkcyan;
+}
